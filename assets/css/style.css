@@ -1061,8 +1061,7 @@ div#field {
     background-color: #ebebeb;
     flex: 1;
     flex-direction: column;
-    /*display: flex;*/
-    overflow-x: hidden;
+    overflow: hidden;
     position:relative;
     height: 500px;
     width: 100%;
@@ -1093,6 +1092,10 @@ rect#notification-highlight {
     stroke-width: 2px;
     fill: #2aabd2;
     display: none;
+}
+
+svg#shadow2 {
+    z-index: 999;
 }
 
 
@@ -1144,3 +1147,11 @@ path#pin-shadowd {
     }
 }
 
+
+.f_twitter {
+    width: 150px;
+}
+
+.f_twitter:hover {
+    color: #245c8a;
+}
